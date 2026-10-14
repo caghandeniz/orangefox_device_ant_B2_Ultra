@@ -122,3 +122,8 @@ BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 # Parlaklik (TWRP recovery logundan: max_brightness = 1140)
 TW_MAX_BRIGHTNESS := 1140
 TW_BRIGHTNESS_PATH := "/sys/devices/platform/soc/11017000.i2c/i2c-5/5-0034/mt6370-backlight.2.auto/backlight/mt6370-backlight/brightness"
+
+# Sifreleme (/data) destegi
+TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_CRYPTO_FBE := true
+BOARD_USES_METADATA_PARTITION := true
